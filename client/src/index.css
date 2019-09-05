@@ -32,6 +32,7 @@ body {
   margin: 1rem auto;
   width: 75%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
@@ -39,9 +40,12 @@ body {
 .saved-list h3 {
   margin-right: 10px;
 }
+.saved-list a {
+  margin: 10px 0;
+}
 
 .saved-movie {
-  margin: 0 10px;
+  margin: 0 50px;
 }
 .saved-active {
   color: blue;
@@ -69,4 +73,9 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+}
+
+.active-list-item {
+  color: green;
+  border: 1px solid green;
 }
